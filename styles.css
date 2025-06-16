@@ -1,0 +1,72 @@
+/* css styles */
+/* Import romantic Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Base font styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fbf6e8;
+  color: #3e3e3e;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  /* color: #b76e79; /* Blush rose */
+  color: #34377d; /* Blush rose */
+}
+
+/* Navbar customization */
+.navbar {
+  background-color: #fbf6e8;
+  /*background-color: #fef1f3;*/
+  border-bottom: 1px solid #fbf6e8;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  /*color: #b76e79 !important; */
+  color: #34377d !important;
+  font-weight: 600;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #a65463 !important;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #fbf6e8;
+  /*color: #b76e79;*/
+  color: #34377d;
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid #fbf6e8;
+}
+
+/* Links */
+a {
+  color: #b76e79;
+}
+a:hover {
+  color: #a65463;
+}
+
+/* Reduce navbar height */
+.navbar {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  min-height: 45px;
+}
+
+/* Reduce spacing of nav items */
+.navbar-nav .nav-link {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+/* Adjust brand size */
+.navbar-brand {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.1rem;
+}

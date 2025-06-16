@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: "."
+  
+website:
+  title: "5.25.2025"
+  favicon: favicon.ico
+  search: false
+  description: "Wedding Photo Gallery"
+  # page-footer: "Copyright 2025 © Byeong-Hak Choe & Alivia Cochran"
+  navbar:
+    pinned: true
+    collapse: false
+    left:
+      - text: Highlights
+        href: Highlights/index_highlights.html
+      - text: Friends & Family
+        href: Friends & Family/index_ff.html
+      - text: Newlyweds
+        href: Newlyweds/index_newlyweds.html
+      - text: Pre-Ceremony
+        href: Pre-Ceremony/index_pre.html
+      - text: Ceremony
+        href: Ceremony/index_ceremony.html
+      - text: Reception
+        href: Reception/index_reception.html
+
+format:
+  html:
+    theme:
+      light: litera
+    css: styles.css
+    fontsize: 1.4rem
+    linestretch: 1.4
+    toc: true
+    
+execute:
+  freeze: false

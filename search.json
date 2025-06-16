@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Password Protected Quarto Page",
+    "section": "",
+    "text": "Please enter the password:\n\n Submit"
+  },
+  {
+    "objectID": "index-true.html",
+    "href": "index-true.html",
+    "title": "Wedding",
+    "section": "",
+    "text": "This is Alivia and Byeong-Hak’s wedding photo gallery."
+  }
+]

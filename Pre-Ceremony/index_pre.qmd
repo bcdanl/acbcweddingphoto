@@ -38,7 +38,7 @@ photos = photos[reordering]
 for (i in seq_along(photos)){
   if(i %in% c(1)) span = 'all' else span = 'none'
 
-  cat(glue('![]({{ baseurl }}/{{ fs::path_file(photos[i]) }}){.lightbox style="column-span: {{ span }};" group="kaikoura-gallery"}', .open = '{{', .close = '}}'), '
+  cat(glue('![]({{ baseurl }}/{{ fs::path_file(photos[i]) }}){.lightbox style="column-span: {{ span }};" group="pre"}', .open = '{{', .close = '}}'), '
 ')
 
 }

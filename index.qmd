@@ -34,7 +34,7 @@ lightbox: true
 
 ::: {.column width="65%"}
 
-![](photos/Portraits/Choe-1204.jpg){.lightbox style="column-span: all;" group="highlight-gallery"}
+![](photos/Portraits/Choe-1204.jpg){.lightbox style="column-span: all;" group="Newlyweds-gallery"}
 
 :::
 
@@ -53,18 +53,17 @@ lightbox: true
 ::: column-page
 
 
-![](photos/Portraits/Choe-1276.jpg){.lightbox style="column-span: all;" group="highlight-gallery"}
+![](photos/Portraits/Choe-1276.jpg){.lightbox style="column-span: all;" group="Newlyweds-gallery"}
 
-![](photos/Portraits/Choe-1301.jpg){.lightbox style="column-span: all;" group="highlight-gallery"}
+![](photos/Portraits/Choe-1301.jpg){.lightbox style="column-span: all;" group="Newlyweds-gallery"}
 
-![](photos/Portraits/Choe-1309.jpg){.lightbox style="column-span: all;" group="highlight-gallery"}
+![](photos/Portraits/Choe-1309.jpg){.lightbox style="column-span: all;" group="Newlyweds-gallery"}
 
 ![](photos/Newlyweds/Choe-0797.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
 ![](photos/Newlyweds/Choe-0800.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
 ![](photos/Newlyweds/Choe-1123.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
 ![](photos/Newlyweds/Choe-1125.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
 ![](photos/Newlyweds/Choe-1128.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
-![](photos/Newlyweds/Choe-1197.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
 ![](photos/Newlyweds/Choe-1201.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
 ![](photos/Newlyweds/Choe-1269.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}
 ![](photos/Newlyweds/Choe-1279.jpg){.lightbox	style="column-span:	all;" group="Newlyweds-gallery"}

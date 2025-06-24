@@ -4,7 +4,7 @@ print(file_names)
 
 # 2. Get file names from a specific directory
 #    Make sure the directory path is correct.
-specific_directory <- "/Users/bchoe/Documents/websites/acbcweddingphoto/photos/Newlyweds" # Replace with your actual directory path
+specific_directory <- "/Users/bchoe/Documents/websites/acbcweddingphoto/photos/Friends & Family" # Replace with your actual directory path
 file_names_in_dir <- list.files(specific_directory)
 library(tidyverse)
 fn <- str_c("![](photos/Newlyweds/", file_names_in_dir, '){.lightbox style="column-span: all;" group="Newlyweds-gallery"}')

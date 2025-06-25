@@ -2,17 +2,15 @@
 format:
   html:
     keep-md: false
-    theme: litera
     css: ../gallery.css
-    toc: false
-title: "Friends & Family"
-album: "Friends & Family"
+title: ff
+album: FriendsFamily
 editor: source
 lightbox: auto
 ---
 
 <!-- :::{.column-page  style="background-image: url('../images/white_wall_hash.webp');"} -->
-![](../images/wedding_title2.png){width=60% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='ushuaia'}
+![](../images/wedding_title2.png){width=60% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='kaikoura'}
 <!-- ::: -->
 
 
@@ -21,144 +19,28 @@ lightbox: auto
 ::: column-page
 
 
-![](../photos/FriendsFamily/Choe-0574.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0583.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0645.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0651.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0659.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0669.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0703.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0706.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0817.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0820.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0836.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0859.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0868.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-0875.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1132.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1134.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1135.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1137.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1138.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1139.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1140.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1141.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1142.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1143.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1145.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1146.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1147.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1149.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1150.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1151.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1153.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1154.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1155.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1157.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1158.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1159.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1160.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1161.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1162.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1164.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1165.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1166.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1167.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1168.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1169.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1170.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1171.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1172.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1173.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1174.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1175.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1176.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1178.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1179.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1180.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1181.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1182.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1183.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1185.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1186.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1187.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1188.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1189.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1190.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1191.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1192.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1193.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1194.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1196.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1219.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1224.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1234.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1240.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1251.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1268.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1686.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1687.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1688.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1689.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1690.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1691.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1692.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1693.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1694.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1695.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1696.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1697.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1698.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1699.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1700.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1701.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1702.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1703.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1704.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1705.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1706.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1709.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1710.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1711.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1712.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1713.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1714.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1715.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1716.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1717.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1718.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1731.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1732.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1733.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1734.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1735.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1736.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1737.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1738.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1739.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1740.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1741.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1742.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1743.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1744.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1746.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1747.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1748.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1749.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-![](../photos/FriendsFamily/Choe-1750.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1751.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1752.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1753.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1754.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1755.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-<!-- ![](../photos/FriendsFamily/Choe-1756.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1757.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1758.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1759.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
-<!-- ![](../photos/FriendsFamily/Choe-1760.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"} -->
-![](../photos/FriendsFamily/Choe-1761.jpg){.lightbox style="column-span: all;" group="FriendsFamily-gallery"}
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+library(glue)
+library(fs)
+library(here)
+album = rmarkdown::metadata$album
+localurl =  path('../photos/', album)
+photos = fs::dir_ls(path = localurl, glob = '*.jpg')
+# baseurl = glue('https://xxxxxxx.cloudfront.net/photos/{album}')
+baseurl = localurl
+if(file.exists('custom_order')){
+reordering = intersect(as.integer(readLines('custom_order')), seq_along(photos))
+photos = photos[reordering]
+}
+  
+for (i in seq_along(photos)){
+  if(i %in% c(1)) span = 'all' else span = 'none'
 
+  cat(glue('![]({{ baseurl }}/{{ fs::path_file(photos[i]) }}){.lightbox style="column-span: {{ span }};" group="highlights"}', .open = '{{', .close = '}}'), '
+')
 
+}
+```
 :::
 
 :::

@@ -3,25 +3,27 @@ project:
   output-dir: "."
   
 website:
-  title: "5.25.2025"
-  favicon: favicon.ico
+  title: ""
+  # favicon: images/wedding_title.svg
   search: false
   description: "Wedding Photo Gallery"
   # page-footer: "Copyright 2025 © Byeong-Hak Choe & Alivia Cochran"
   navbar:
     pinned: true
-    collapse: false
+    logo: images/wedding_title3.png  # Path to your logo file
     left:
-      - text: Highlights
+      - text: "Highlights 주요장면"
         href: Highlights/index_highlights.html
-      - text: Friends & Family
+      - text: "Friends & Family 친구가족"
         href: Friends & Family/index_ff.html
-      - text: Pre-Ceremony
+      - text: "Pre-Ceremony 예식전"
         href: Pre-Ceremony/index_pre.html
-      - text: Ceremony
+      - text: "Ceremony 결혼식"
         href: Ceremony/index_ceremony.html
-      - text: Reception
+      - text: "Reception 연회"
         href: Reception/index_reception.html
+      - text: "Pre-Wedding 결혼전"
+        href: /index_reception.html
 
 format:
   html:

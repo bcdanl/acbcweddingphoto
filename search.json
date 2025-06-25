@@ -1,30 +1,9 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Password Protected Quarto Page",
+    "title": "Wedding Photo Gallery",
     "section": "",
-    "text": "Please enter the password:\n\n Submit"
-  },
-  {
-    "objectID": "index-true.html",
-    "href": "index-true.html",
-    "title": "Wedding",
-    "section": "",
-    "text": "This is Alivia and Byeong-Hak’s wedding photo gallery."
-  },
-  {
-    "objectID": "Friends & Family/index_ff.html",
-    "href": "Friends & Family/index_ff.html",
-    "title": "Friends & Family",
-    "section": "",
-    "text": "# {r, results='asis', echo=FALSE, warning=FALSE, message=FALSE} # library(glue) # library(fs) # library(here) # album = rmarkdown::metadata$album # localurl =  path('../photos/', album) # photos = fs::dir_ls(path = localurl, glob = '*.jpg') # # baseurl = glue('https://xxxxxxx.cloudfront.net/photos/{album}') # baseurl = localurl # if(file.exists('custom_order')){ # reordering = intersect(as.integer(readLines('custom_order')), seq_along(photos)) # photos = photos[reordering] # } #    # for (i in seq_along(photos)){ #   if(i %in% c(1)) span = 'all' else span = 'none' #  #   cat(glue('![]({{ baseurl }}/{{ fs::path_file(photos[i]) }}){.lightbox style=\"column-span: {{ span }};\" group=\"ff\"}', .open = '{{', .close = '}}'), ' # ') #  # } #"
+    "text": "Home 홈 Home 홈 Highlights 주요장면 /Highlights/index_highlights.html | Friends & Family 친구가족 /Friends & Family/index_ff.html Pre-Ceremony 예식전 /Pre-Ceremony/index_pre.html Ceremony 결혼식 /Ceremony/index_ceremony.html Reception 연회 /Reception/index_reception.html\n\n\nWedding Photo Gallery – Home 홈 Wedding Photo Gallery – Home 홈 Wedding Photo Gallery – Home 홈 Home 홈 Wedding Photo Gallery Wedding Photo Gallery"
   }
 ]

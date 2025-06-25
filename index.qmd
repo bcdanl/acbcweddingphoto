@@ -1,13 +1,14 @@
 ---
-title: ACBC's Wedding Photo Gallery
 format:
   html:
     keep-md: false
-    css: ../gallery.css
+    css: gallery.css
+title: ACBC's Wedding Photo Gallery
 album: Newlyweds
 editor: source
 lightbox: auto
 ---
+
 <!-- :::{.column-page  style="background-image: url('../images/white_wall_hash.webp');"} -->
 ![](images/wedding_title3.png){width=60% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
 <!-- ::: -->

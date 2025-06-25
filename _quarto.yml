@@ -23,7 +23,7 @@ website:
       - text: "Reception 연회"
         href: Reception/index_reception.html
       - text: "Pre-Wedding 결혼전"
-        href: /index_reception.html
+        href: /index_prew.html
 
 format:
   html:

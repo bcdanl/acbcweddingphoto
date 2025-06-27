@@ -1,9 +1,16 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ACBC’s Wedding Photo Gallery",
+    "objectID": "Highlights/index_highlights.html",
+    "href": "Highlights/index_highlights.html",
+    "title": "Highlights",
     "section": "",
-    "text": "Click to open the viewer in full screen.\n사진을 클릭하면 전체 화면 보기 창이 열립니다."
+    "text": "Please allow 15 seconds for the pictures to load.\n\n\n사진이 나타나기까지 약 15초 정도 소요될 수 있습니다.\n\n\n잠시만 기다려 주세요."
+  },
+  {
+    "objectID": "Reception/index_reception.html",
+    "href": "Reception/index_reception.html",
+    "title": "Reception",
+    "section": "",
+    "text": "Please allow 15 seconds for the pictures to load.\n\n\n사진이 나타나기까지 약 15초 정도 소요될 수 있습니다.\n\n\n잠시만 기다려 주세요."
   }
 ]

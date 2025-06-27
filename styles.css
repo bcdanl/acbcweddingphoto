@@ -50,23 +50,38 @@ a:hover {
   color: #a65463;
 }
 
-/* Reduce navbar height */
+/* Align brand and nav items vertically using flex */
 .navbar {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  min-height: 45px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 56px;   /* Adjust as needed */
+  align-items: center;
 }
 
-/* Reduce spacing of nav items */
-.navbar-nav .nav-link {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  font-size: 0.95rem;
-}
-
-/* Adjust brand size */
 .navbar-brand {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding: 0.25rem 0.05rem;
+  line-height: 1.1;
   font-size: 1.1rem;
+  white-space: normal;
+  text-align: center;
+}
+
+.navbar-brand img {
+  height: 56px;
+  max-height: none;
+  margin-right: 2px;  /* ← reduce this */
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.1;
 }

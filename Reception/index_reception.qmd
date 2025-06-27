@@ -25,7 +25,15 @@ library(fs)
 library(here)
 album = rmarkdown::metadata$album
 localurl =  path('../photos/', album)
-photos = fs::dir_ls(path = localurl, glob = '*.jpg')
+# photos = fs::dir_ls(path = localurl, glob = '*.jpg')
+
+# List .jpg and .gif files
+jpg_files <- fs::dir_ls(path = localurl, glob = '*.jpg')
+gif_files <- fs::dir_ls(path = localurl, glob = '*.gif')
+
+# Combine and sort
+photos <- sort(c(jpg_files, gif_files))
+
 # baseurl = glue('https://xxxxxxx.cloudfront.net/photos/{album}')
 baseurl = localurl
 if(file.exists('custom_order')){

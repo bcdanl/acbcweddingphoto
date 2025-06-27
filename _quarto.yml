@@ -22,8 +22,8 @@ website:
         href: Ceremony/index_ceremony.html
       - text: "Reception 연회"
         href: Reception/index_reception.html
-      - text: "Pre-Wedding 결혼전"
-        href: Pre-Wedding/index_prew.html
+      - text: "Before & After 결혼전후"
+        href: Pre-Post-Wedding/index_prepost.html
 
 format:
   html:

@@ -3,14 +3,14 @@ format:
   html:
     keep-md: false
     css: gallery.css
-title: ACBC's Wedding Photo Gallery
-album: Newlyweds
+title: Newlyweds
+album: Portraits
 editor: source
 lightbox: auto
 ---
 
 <!-- :::{.column-page  style="background-image: url('../images/white_wall_hash.webp');"} -->
-![](images/wedding_title3.png){width=60% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
+![](images/wedding_title3.png){width=67% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
 
 <!-- Click to open the viewer in full screen.  -->
 

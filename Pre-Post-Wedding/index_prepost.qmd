@@ -9,7 +9,7 @@ editor: source
 lightbox: auto
 ---
 
-![](../images/wedding_title2.png){width=60% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
+![](../images/wedding_ba.png){width=60% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
 
 
 ::: gallery

@@ -85,3 +85,19 @@ a:hover {
   font-size: 0.95rem;
   line-height: 1.1;
 }
+
+/* Target navigation bar title */
+.navbar-brand {
+  font-family: 'Playfair Display', serif;  /* English wedding font */
+}
+
+/* Target navigation menu items */
+.navbar-nav li a {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Apply Korean font when Korean characters are detected */
+.navbar-brand:lang(ko),
+.navbar-nav li a:lang(ko) {
+  font-family: 'Noto Serif KR', serif;  /* Korean font example */
+}

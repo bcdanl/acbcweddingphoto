@@ -194,7 +194,7 @@ function showSlide0() {
 function openModal0() {
   const modal = document.getElementById("modal0");
   modal.style.display = "block";
-  document.body.style.overflow = "hidden";  // prevent background scroll
+  document.body.style.overflow = "hidden";
   currentIndex0 = 0;
   showSlide0();
   clearInterval(interval0);
@@ -206,7 +206,7 @@ function openModal0() {
 
 function closeModal(modalId, intervalName) {
   document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";  // restore scrolling
+  document.body.style.overflow = "";
   clearInterval(window[intervalName]);
 }
 </script>
@@ -273,7 +273,7 @@ function showSlide1() {
 function openModal1() {
   const modal = document.getElementById("modal1");
   modal.style.display = "block";
-  document.body.style.overflow = "hidden";  // prevent background scroll
+  document.body.style.overflow = "hidden";
   currentIndex1 = 0;
   showSlide1();
   clearInterval(interval1);
@@ -285,7 +285,7 @@ function openModal1() {
 
 function closeModal(modalId, intervalName) {
   document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";  // restore scrolling
+  document.body.style.overflow = "";
   clearInterval(window[intervalName]);
 }
 </script>

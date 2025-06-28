@@ -73,19 +73,19 @@ function showSlide{i}() {{
 function openModal{i}() {{
   const modal = document.getElementById("{modal_id}");
   modal.style.display = "block";
-  document.body.style.overflow = "hidden";  // prevent background scroll
+  document.body.style.overflow = "hidden";
   {index_var} = 0;
   showSlide{i}();
   clearInterval({interval_var});
   {interval_var} = setInterval(() => {{
     {index_var} = ({index_var} + 1) % {array_name}.length;
     showSlide{i}();
-  }}, 350);
+  }}, 300);
 }}
 
 function closeModal(modalId, intervalName) {{
   document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";  // restore scrolling
+  document.body.style.overflow = "";
   clearInterval(window[intervalName]);
 }}
 </script>

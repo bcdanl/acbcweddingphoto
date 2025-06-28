@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Reception – ACBC’s Wedding ACBC의 결혼</title>
+<title>Photo Bombs – ACBC’s Wedding ACBC의 결혼</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,7 +50,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.setAttribute("data-page", "reception");
+});
+</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -127,23 +131,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-body" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Reception</h1>
+<h1 class="title">Photo Bombs</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
     
   
@@ -168,362 +172,59 @@ It may take up to 10 seconds to load.
 사진을 클릭하시면 애니메이션이 약 10초 후에 재생될 수 있습니다.
 </p>
 <div class="column-page">
+<p>library(glue)</p>
+<p>for (i in 2:9) { folder &lt;- glue(“../photos/gif{i}”) images &lt;- list.files(folder, pattern = “\.jpg$”, full.names = TRUE) if (length(images) == 0) next</p>
+<p>img_id &lt;- glue(“slide{i}”) modal_id &lt;- glue(“modal{i}”) modal_img_id &lt;- glue(“modalImg{i}”) array_name &lt;- glue(“imagePaths{i}”) index_var &lt;- glue(“currentIndex{i}”) interval_var &lt;- glue(“interval{i}”)</p>
+cat(glue(’
 <div>
-<p><img id="slide2" src="../photos/gif2/Choe-1926.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal2()"></p>
+<p><img id="{img_id}" src="{images[1]}" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal{i}()"></p>
 </div>
-<div id="modal2" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal2', 'interval2')">×</span> <img class="modal-content" id="modalImg2"></p>
+<div id="{modal_id}" class="modal">
+<p><span class="modal-close" onclick="closeModal(\'{modal_id}\', \'{interval_var}\')">×</span> <img class="modal-content" id="{modal_img_id}"></p>
 </div>
+<p>’))</p>
+<p>js_array &lt;- paste0(‘“‘, images,’”’, collapse = “,”)</p>
+cat(glue(’
 <script>
-const imagePaths2 = [
-"../photos/gif2/Choe-1926.jpg",
-"../photos/gif2/Choe-1927.jpg",
-"../photos/gif2/Choe-1928.jpg"
+const {array_name} = [
+{js_array}
 ];
-let currentIndex2 = 0;
-let interval2 = null;
+let {index_var} = 0;
+let {interval_var} = null;
 
-function showSlide2() {
-  const modalImg = document.getElementById("modalImg2");
-  modalImg.src = imagePaths2[currentIndex2];
-}
+function showSlide{i}() {{
+  const modalImg = document.getElementById("{modal_img_id}");
+  modalImg.src = {array_name}[{index_var}];
+}}
 
-function openModal2() {
-  const modal = document.getElementById("modal2");
+function openModal{i}() {{
+  const modal = document.getElementById("{modal_id}");
   modal.style.display = "block";
   document.body.style.overflow = "hidden";
-  currentIndex2 = 0;
-  showSlide2();
-  clearInterval(interval2);
-  interval2 = setInterval(() => {
-    currentIndex2 = (currentIndex2 + 1) % imagePaths2.length;
-    showSlide2();
-  }, 300);
-}
+  {index_var} = 0;
+  showSlide{i}();
+  clearInterval({interval_var});
+  {interval_var} = setInterval(() => {{
+    {index_var} = ({index_var} + 1) % {array_name}.length;
+    showSlide{i}();
+  }}, 300);
 
-function closeModal(modalId, intervalName) {
+  // ✅ Hide navbar
+  const navbar = document.querySelector("nav");
+  if (navbar) navbar.style.display = "none";
+}}
+
+function closeModal(modalId, intervalName) {{
   document.getElementById(modalId).style.display = "none";
   document.body.style.overflow = "";
   clearInterval(window[intervalName]);
-}
+
+  // ✅ Show navbar again
+  const navbar = document.querySelector("nav");
+  if (navbar) navbar.style.display = "";
+}}
 </script>
-<div>
-<p><img id="slide3" src="../photos/gif3/Choe-1930.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal3()"></p>
-</div>
-<div id="modal3" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal3', 'interval3')">×</span> <img class="modal-content" id="modalImg3"></p>
-</div>
-<script>
-const imagePaths3 = [
-"../photos/gif3/Choe-1930.jpg",
-"../photos/gif3/Choe-1931.jpg",
-"../photos/gif3/Choe-1932.jpg",
-"../photos/gif3/Choe-1933.jpg",
-"../photos/gif3/Choe-1934.jpg",
-"../photos/gif3/Choe-1935.jpg",
-"../photos/gif3/Choe-1936.jpg",
-"../photos/gif3/Choe-1937.jpg"
-];
-let currentIndex3 = 0;
-let interval3 = null;
-
-function showSlide3() {
-  const modalImg = document.getElementById("modalImg3");
-  modalImg.src = imagePaths3[currentIndex3];
-}
-
-function openModal3() {
-  const modal = document.getElementById("modal3");
-  modal.style.display = "block";
-  document.body.style.overflow = "hidden";
-  currentIndex3 = 0;
-  showSlide3();
-  clearInterval(interval3);
-  interval3 = setInterval(() => {
-    currentIndex3 = (currentIndex3 + 1) % imagePaths3.length;
-    showSlide3();
-  }, 300);
-}
-
-function closeModal(modalId, intervalName) {
-  document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";
-  clearInterval(window[intervalName]);
-}
-</script>
-<div>
-<p><img id="slide4" src="../photos/gif4/Choe-1938.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal4()"></p>
-</div>
-<div id="modal4" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal4', 'interval4')">×</span> <img class="modal-content" id="modalImg4"></p>
-</div>
-<script>
-const imagePaths4 = [
-"../photos/gif4/Choe-1938.jpg",
-"../photos/gif4/Choe-1939.jpg",
-"../photos/gif4/Choe-1940.jpg"
-];
-let currentIndex4 = 0;
-let interval4 = null;
-
-function showSlide4() {
-  const modalImg = document.getElementById("modalImg4");
-  modalImg.src = imagePaths4[currentIndex4];
-}
-
-function openModal4() {
-  const modal = document.getElementById("modal4");
-  modal.style.display = "block";
-  document.body.style.overflow = "hidden";
-  currentIndex4 = 0;
-  showSlide4();
-  clearInterval(interval4);
-  interval4 = setInterval(() => {
-    currentIndex4 = (currentIndex4 + 1) % imagePaths4.length;
-    showSlide4();
-  }, 300);
-}
-
-function closeModal(modalId, intervalName) {
-  document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";
-  clearInterval(window[intervalName]);
-}
-</script>
-<div>
-<p><img id="slide5" src="../photos/gif5/Choe-1941.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal5()"></p>
-</div>
-<div id="modal5" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal5', 'interval5')">×</span> <img class="modal-content" id="modalImg5"></p>
-</div>
-<script>
-const imagePaths5 = [
-"../photos/gif5/Choe-1941.jpg",
-"../photos/gif5/Choe-1942.jpg",
-"../photos/gif5/Choe-1943.jpg",
-"../photos/gif5/Choe-1944.jpg",
-"../photos/gif5/Choe-1945.jpg",
-"../photos/gif5/Choe-1946.jpg",
-"../photos/gif5/Choe-1947.jpg",
-"../photos/gif5/Choe-1948.jpg",
-"../photos/gif5/Choe-1949.jpg",
-"../photos/gif5/Choe-1950.jpg",
-"../photos/gif5/Choe-1951.jpg",
-"../photos/gif5/Choe-1952.jpg",
-"../photos/gif5/Choe-1953.jpg",
-"../photos/gif5/Choe-1954.jpg"
-];
-let currentIndex5 = 0;
-let interval5 = null;
-
-function showSlide5() {
-  const modalImg = document.getElementById("modalImg5");
-  modalImg.src = imagePaths5[currentIndex5];
-}
-
-function openModal5() {
-  const modal = document.getElementById("modal5");
-  modal.style.display = "block";
-  document.body.style.overflow = "hidden";
-  currentIndex5 = 0;
-  showSlide5();
-  clearInterval(interval5);
-  interval5 = setInterval(() => {
-    currentIndex5 = (currentIndex5 + 1) % imagePaths5.length;
-    showSlide5();
-  }, 300);
-}
-
-function closeModal(modalId, intervalName) {
-  document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";
-  clearInterval(window[intervalName]);
-}
-</script>
-<div>
-<p><img id="slide6" src="../photos/gif6/Choe-1955.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal6()"></p>
-</div>
-<div id="modal6" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal6', 'interval6')">×</span> <img class="modal-content" id="modalImg6"></p>
-</div>
-<script>
-const imagePaths6 = [
-"../photos/gif6/Choe-1955.jpg",
-"../photos/gif6/Choe-1956.jpg",
-"../photos/gif6/Choe-1957.jpg",
-"../photos/gif6/Choe-1958.jpg",
-"../photos/gif6/Choe-1959.jpg",
-"../photos/gif6/Choe-1960.jpg",
-"../photos/gif6/Choe-1961.jpg",
-"../photos/gif6/Choe-1962.jpg",
-"../photos/gif6/Choe-1963.jpg",
-"../photos/gif6/Choe-1964.jpg",
-"../photos/gif6/Choe-1965.jpg",
-"../photos/gif6/Choe-1966.jpg",
-"../photos/gif6/Choe-1967.jpg",
-"../photos/gif6/Choe-1968.jpg",
-"../photos/gif6/Choe-1969.jpg"
-];
-let currentIndex6 = 0;
-let interval6 = null;
-
-function showSlide6() {
-  const modalImg = document.getElementById("modalImg6");
-  modalImg.src = imagePaths6[currentIndex6];
-}
-
-function openModal6() {
-  const modal = document.getElementById("modal6");
-  modal.style.display = "block";
-  document.body.style.overflow = "hidden";
-  currentIndex6 = 0;
-  showSlide6();
-  clearInterval(interval6);
-  interval6 = setInterval(() => {
-    currentIndex6 = (currentIndex6 + 1) % imagePaths6.length;
-    showSlide6();
-  }, 300);
-}
-
-function closeModal(modalId, intervalName) {
-  document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";
-  clearInterval(window[intervalName]);
-}
-</script>
-<div>
-<p><img id="slide7" src="../photos/gif7/Choe-1970.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal7()"></p>
-</div>
-<div id="modal7" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal7', 'interval7')">×</span> <img class="modal-content" id="modalImg7"></p>
-</div>
-<script>
-const imagePaths7 = [
-"../photos/gif7/Choe-1970.jpg",
-"../photos/gif7/Choe-1971.jpg",
-"../photos/gif7/Choe-1972.jpg",
-"../photos/gif7/Choe-1973.jpg",
-"../photos/gif7/Choe-1974.jpg",
-"../photos/gif7/Choe-1975.jpg",
-"../photos/gif7/Choe-1976.jpg",
-"../photos/gif7/Choe-1977.jpg",
-"../photos/gif7/Choe-1978.jpg",
-"../photos/gif7/Choe-1979.jpg"
-];
-let currentIndex7 = 0;
-let interval7 = null;
-
-function showSlide7() {
-  const modalImg = document.getElementById("modalImg7");
-  modalImg.src = imagePaths7[currentIndex7];
-}
-
-function openModal7() {
-  const modal = document.getElementById("modal7");
-  modal.style.display = "block";
-  document.body.style.overflow = "hidden";
-  currentIndex7 = 0;
-  showSlide7();
-  clearInterval(interval7);
-  interval7 = setInterval(() => {
-    currentIndex7 = (currentIndex7 + 1) % imagePaths7.length;
-    showSlide7();
-  }, 300);
-}
-
-function closeModal(modalId, intervalName) {
-  document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";
-  clearInterval(window[intervalName]);
-}
-</script>
-<div>
-<p><img id="slide8" src="../photos/gif8/Choe-1980.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal8()"></p>
-</div>
-<div id="modal8" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal8', 'interval8')">×</span> <img class="modal-content" id="modalImg8"></p>
-</div>
-<script>
-const imagePaths8 = [
-"../photos/gif8/Choe-1980.jpg",
-"../photos/gif8/Choe-1981.jpg",
-"../photos/gif8/Choe-1982.jpg",
-"../photos/gif8/Choe-1983.jpg",
-"../photos/gif8/Choe-1984.jpg"
-];
-let currentIndex8 = 0;
-let interval8 = null;
-
-function showSlide8() {
-  const modalImg = document.getElementById("modalImg8");
-  modalImg.src = imagePaths8[currentIndex8];
-}
-
-function openModal8() {
-  const modal = document.getElementById("modal8");
-  modal.style.display = "block";
-  document.body.style.overflow = "hidden";
-  currentIndex8 = 0;
-  showSlide8();
-  clearInterval(interval8);
-  interval8 = setInterval(() => {
-    currentIndex8 = (currentIndex8 + 1) % imagePaths8.length;
-    showSlide8();
-  }, 300);
-}
-
-function closeModal(modalId, intervalName) {
-  document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";
-  clearInterval(window[intervalName]);
-}
-</script>
-<div>
-<p><img id="slide9" src="../photos/gif9/Choe-1985.jpg" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal9()"></p>
-</div>
-<div id="modal9" class="modal">
-<p><span class="modal-close" onclick="closeModal('modal9', 'interval9')">×</span> <img class="modal-content" id="modalImg9"></p>
-</div>
-<script>
-const imagePaths9 = [
-"../photos/gif9/Choe-1985.jpg",
-"../photos/gif9/Choe-1986.jpg",
-"../photos/gif9/Choe-1987.jpg",
-"../photos/gif9/Choe-1988.jpg",
-"../photos/gif9/Choe-1989.jpg",
-"../photos/gif9/Choe-1990.jpg",
-"../photos/gif9/Choe-1991.jpg",
-"../photos/gif9/Choe-1993.jpg",
-"../photos/gif9/Choe-1996.jpg",
-"../photos/gif9/Choe-1998.jpg"
-];
-let currentIndex9 = 0;
-let interval9 = null;
-
-function showSlide9() {
-  const modalImg = document.getElementById("modalImg9");
-  modalImg.src = imagePaths9[currentIndex9];
-}
-
-function openModal9() {
-  const modal = document.getElementById("modal9");
-  modal.style.display = "block";
-  document.body.style.overflow = "hidden";
-  currentIndex9 = 0;
-  showSlide9();
-  clearInterval(interval9);
-  interval9 = setInterval(() => {
-    currentIndex9 = (currentIndex9 + 1) % imagePaths9.length;
-    showSlide9();
-  }, 300);
-}
-
-function closeModal(modalId, intervalName) {
-  document.getElementById(modalId).style.display = "none";
-  document.body.style.overflow = "";
-  clearInterval(window[intervalName]);
-}
-</script>
+<p>’)) }```</p>
 </div>
 </div>
 

@@ -1,14 +1,17 @@
 ---
 format:
   html:
-    page-layout: full
-    include-in-header:
-      text: |
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     keep-md: false
     css: ../gallery.css
-title: Reception
-album: Reception
+    include-in-header:
+      text: |
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          document.body.setAttribute("data-page", "reception");
+        });
+        </script>
+        
+title: Bouquet Toss
 editor: source
 lightbox: auto
 ---
@@ -85,12 +88,20 @@ function openModal{i}() {{
     {index_var} = ({index_var} + 1) % {array_name}.length;
     showSlide{i}();
   }}, 300);
+
+  // ✅ Hide navbar
+  const navbar = document.querySelector("nav");
+  if (navbar) navbar.style.display = "none";
 }}
 
 function closeModal(modalId, intervalName) {{
   document.getElementById(modalId).style.display = "none";
   document.body.style.overflow = "";
   clearInterval(window[intervalName]);
+
+  // ✅ Show navbar again
+  const navbar = document.querySelector("nav");
+  if (navbar) navbar.style.display = "";
 }}
 </script>
 '))

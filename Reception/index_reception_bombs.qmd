@@ -26,6 +26,8 @@ Click on a photo to view the animation.
 </p>
 
 
+
+
 ::: column-page
 
 
@@ -57,7 +59,7 @@ for (i in 2:9) {
 
   js_array <- paste0('"', images, '"', collapse = ",\n")
 
-cat(glue('
+  cat(glue('
 <script>
 const {array_name} = [
 {js_array}
@@ -95,3 +97,4 @@ function closeModal(modalId, intervalName) {{
 
 :::
 :::
+

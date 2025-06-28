@@ -12,6 +12,7 @@ lightbox: auto
 ![](../images/wedding_ba.png){width=60% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
 
 
+
 ::: gallery
 
 ::: column-page

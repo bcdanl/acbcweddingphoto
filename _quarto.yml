@@ -28,7 +28,13 @@ website:
         href: Ceremony/index_ceremony.html
       
       - text: "Reception<br><small>연회</small>"
-        href: Reception/index_reception.html
+        menu: 
+          - text: "Still Photos<br><small>사진</small>"
+            href: Reception/index_reception_photos.html
+          - text: "Bouquet Toss<br><small>부케 던지기</small>"
+            href: Reception/index_reception_bouquet.html
+          - text: "Photo Bombs<br><small>깜짝 사진</small>"
+            href: Reception/index_reception_bombs.html
       
       - text: "Before & After<br><small>결혼전후</small>"
         href: Pre-Post-Wedding/index_prepost.html

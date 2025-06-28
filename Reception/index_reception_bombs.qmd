@@ -1,0 +1,97 @@
+---
+format:
+  html:
+    keep-md: false
+    css: ../gallery.css
+title: Reception
+album: Reception
+editor: source
+lightbox: auto
+---
+
+<!-- :::{.column-page  style="background-image: url('../images/white_wall_hash.webp');"} -->
+![](../images/wedding_bombs.png){width=67% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
+<!-- ::: -->
+
+
+
+::: gallery
+
+
+<p align="center" style="margin-top: -50px;">
+Click on a photo to view the animation.
+</p>
+<p align="center" style="margin-bottom: 25px;">
+사진을 클릭하면 애니메이션이 재생됩니다.
+</p>
+
+
+::: column-page
+
+
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+library(glue)
+
+for (i in 2:9) {
+  folder <- glue("../photos/gif{i}")
+  images <- list.files(folder, pattern = "\\.jpg$", full.names = TRUE)
+  if (length(images) == 0) next
+
+  img_id <- glue("slide{i}")
+  modal_id <- glue("modal{i}")
+  modal_img_id <- glue("modalImg{i}")
+  array_name <- glue("imagePaths{i}")
+  index_var <- glue("currentIndex{i}")
+  interval_var <- glue("interval{i}")
+
+  cat(glue('
+<div>
+  <img id="{img_id}" src="{images[1]}" class="aligned-image nolightbox" style="cursor:pointer;" onclick="openModal{i}()">
+</div>
+
+<div id="{modal_id}" class="modal">
+  <span class="modal-close" onclick="closeModal(\'{modal_id}\', \'{interval_var}\')">&times;</span>
+  <img class="modal-content" id="{modal_img_id}">
+</div>
+'))
+
+  js_array <- paste0('"', images, '"', collapse = ",\n")
+
+cat(glue('
+<script>
+const {array_name} = [
+{js_array}
+];
+let {index_var} = 0;
+let {interval_var} = null;
+
+function showSlide{i}() {{
+  const modalImg = document.getElementById("{modal_img_id}");
+  modalImg.src = {array_name}[{index_var}];
+}}
+
+function openModal{i}() {{
+  const modal = document.getElementById("{modal_id}");
+  modal.style.display = "block";
+  document.body.style.overflow = "hidden";  // prevent background scroll
+  {index_var} = 0;
+  showSlide{i}();
+  clearInterval({interval_var});
+  {interval_var} = setInterval(() => {{
+    {index_var} = ({index_var} + 1) % {array_name}.length;
+    showSlide{i}();
+  }}, 350);
+}}
+
+function closeModal(modalId, intervalName) {{
+  document.getElementById(modalId).style.display = "none";
+  document.body.style.overflow = "";  // restore scrolling
+  clearInterval(window[intervalName]);
+}}
+</script>
+'))
+}
+```
+
+:::
+:::

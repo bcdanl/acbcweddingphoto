@@ -78,10 +78,10 @@ html, body, h1, h2, section, div {
 
 .modal-close {
   position: absolute;
-  top: 60px;
-  right: 30px;
+  top: 50px;
+  right: 20px;
   color: black;
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: bold;
   cursor: pointer;
   padding: 0.25rem 0.5rem;

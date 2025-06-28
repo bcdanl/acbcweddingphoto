@@ -10,7 +10,7 @@ website:
   # page-footer: "Copyright 2025 © Byeong-Hak Choe & Alivia Cochran"
   navbar:
     pinned: true
-    logo: images/wedding_logo5.png  # Path to your logo file
+    logo: images/wedding_logo6.png  # Path to your logo file
     left:
       - text: "Highlights<br><small>주요장면</small>"
         href: Highlights/index_highlights.html

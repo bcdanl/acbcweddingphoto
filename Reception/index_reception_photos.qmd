@@ -10,7 +10,7 @@ lightbox: auto
 ---
 
 <!-- :::{.column-page  style="background-image: url('../images/white_wall_hash.webp');"} -->
-![](../images/wedding_reception.png){width=67% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
+![](../images/wedding_reception4.png){width=67% style="margin-left: auto; margin-right: auto;display: block;" .nolightbox fig-alt='logo'}
 <!-- ::: -->
 
 <p align="center">
